@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Contact_Me</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-column">
+    </div>
+    <div class="right-column">
+      <div class="theme-switch-wrapper">
+      <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+    </label>
+    <div class="description">Dark Mode</div>
+  </div>
+
+      <h1>Contact us</h1>
+
+      <form id="contact-form" method="post">
+        <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="your name" required>
+        <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="e-mail address" required>
+        <label for="message">Message</label>
+    <textarea rows="6" placeholder="message" id="message" name="message" required></textarea>
+        <button type="submit" id="submit" name="submit">Send</button>
+
+  </form>
+  <div id="error"></div>
+  <div id="success-msg"></div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="./script.js"></script>
