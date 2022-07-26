@@ -126,8 +126,6 @@ button:active {
   opacity: 0.8;
 }
 
-/* Toggle Switch */
-
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
